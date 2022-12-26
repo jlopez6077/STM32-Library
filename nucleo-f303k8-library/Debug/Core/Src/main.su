@@ -1,0 +1,7 @@
+C:\Users\oneju\STM32CubeIDE\Prometheus\STM32-Library\nucleo-f303k8-library\Core\Components\register.h:26:6:sendSPIdata	8	static
+../Core/Src/main.c:80:5:main	104	static
+../Core/Src/main.c:126:6:SystemClock_Config	72	static
+../Core/Src/main.c:163:13:MX_SPI1_Init	8	static
+../Core/Src/main.c:203:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:238:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:266:6:Error_Handler	4	static,ignoring_inline_asm
