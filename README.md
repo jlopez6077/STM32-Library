@@ -14,19 +14,3 @@ You will find it the files under "STM32-Library\nucleo-f303k8-library\Core\Compo
 
  
  # Example
-You want to use the external 8-bit register in your project. By reading the documentation you know the pin layout and what configurations you need to make. You send the data through SPI. You retrieve register.h from the library and see this function:
-
-```c
-void sendSPIdata(SPI_HandleTypeDef hspi1, uint8_t data[])
-/*
- * @param  hspi to a SPI_HandleTypeDef structure that contains
- *               the configuration information for SPI module.
- * @param  Data address to data buffer
- */
- ```
- 
-<<<<<<< HEAD
- You pass the SPI structure that you created in your configurations and the data address. The output is register holding that 8-bit value. 
-=======
- You pass the SPI structure that you created in your configurations and the data address. The output is register holding that 8-bit value. 
->>>>>>> f2a2090db04be4a75226fbe4587c00e796d8827f
