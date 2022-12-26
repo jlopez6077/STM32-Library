@@ -60,6 +60,7 @@ static void MX_SPI1_Init(void);
 /* USER CODE BEGIN 0 */
 
 // Q7 =B, Q6 = A, Q5 = G, Q4 = C, Q3 = DP, Q2 = D, Q1 = E, Q0 = F
+
 uint8_t SPIdata[] ={0xd7,	// 0 = a,b,c,d,e,f		1101 0111
 					0x90,	// 1 = b,c				1001 0000
 					0xe6,	// 2 = a,b,d,e,g		1110 0110
@@ -112,7 +113,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  sendSPIdata(hspi1, &SPIdata[8]);
+	  sendSPIdata(hspi1, &SPIdata[0]);
 	  HAL_Delay(500);
     /* USER CODE BEGIN 3 */
   }
