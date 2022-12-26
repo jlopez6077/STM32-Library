@@ -25,4 +25,8 @@ void sendSPIdata(SPI_HandleTypeDef hspi1, uint8_t data[])
  */
  ```
  
+<<<<<<< HEAD
  You pass the SPI structure that you created in your configurations and the data address. The output is register holding that 8-bit value. 
+=======
+ You pass the SPI structure that you created in your configurations and the data address. The output is register holding that 8-bit value. 
+>>>>>>> f2a2090db04be4a75226fbe4587c00e796d8827f
